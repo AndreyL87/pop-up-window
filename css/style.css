@@ -23,7 +23,7 @@ body {
   margin: 0px 50px 0px 0px;
   left: 50em;  
 }
-.menu-list> li:hover .sub-menu-list {
+.sub-menu-link:active .sub-menu-list {
   display: block;
 }
 .menu-link {
@@ -36,7 +36,7 @@ body {
   top: 30px;
   right: 10em; 
 }
-.sub-menu-link { 
+.sub-menu-link {   
   padding: 5px 10px;
   display: flex;
 }
@@ -74,7 +74,5 @@ img {
 .wraper {
   position: absolute;
 }
-input:checked  {
-  display: block;
-}
+
 
