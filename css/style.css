@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {  
+  padding: 25px;
+  font-family: sans-serif;
+}
+.menu, a {
+  text-decoration: none;
+}
+.menu, li {
+  position: relative;
+  list-style: none;
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  left: 5em;  
+}
+.menu-list> li {
+  display: flex;
+  margin: 0px 50px 0px 0px;
+  left: 50em;  
+}
+.menu-list> li:hover .sub-menu-list {
+  display: block;
+}
+.menu-link {
+  color: blue;
+}
+.sub-menu-list { 
+  display: none;  
+  position: relative;  
+  background-color: coral;
+  top: 30px;
+  right: 10em; 
+}
+.sub-menu-link { 
+  padding: 5px 10px;
+  display: flex;
+}
+.check {
+  padding-left: 1.2em;
+}
+.check-box {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(../img/content.png);
+  -webkit-animation: none;
+  appearance: none;  
+  width: 1.5em;
+  height: 1.5em;
+  margin: -0.2em 0em 0em -1.4em;
+  top: -1px;  
+}
+.annex, span {   
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;    
+  margin: 10px;
+  padding: 5px;    
+}
+img {  
+  width: 50px;
+  height: 50px;
+}
+.annex:hover {
+  background-color:  #96ebeb; 
+}
+.wraper {
+  position: absolute;
+}
+input:checked  {
+  display: block;
+}
+
